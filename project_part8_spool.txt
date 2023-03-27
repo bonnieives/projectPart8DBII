@@ -1,0 +1,548 @@
+
+TO_CHAR(SYSDATE,'DDMONTHYYYYDAYHH:MI"SS')                                       
+--------------------------------------------------------------------------------
+24 March     2023 Friday    05:02SS                                             
+
+
+Package created.
+
+CREATE SEQUENCE order_sequence START WITH 7
+                *
+ERROR at line 1:
+ORA-00955: name is already used by an existing object 
+
+
+
+Package body created.
+
+
+PL/SQL procedure successfully completed.
+
+Quantity approved.                                                              
+
+PL/SQL procedure successfully completed.
+
+
+    INV_ID    INV_QOH                                                           
+---------- ----------                                                           
+         1         16                                                           
+         2         12                                                           
+         3        150                                                           
+         4        147                                                           
+         5          0                                                           
+         6        139                                                           
+         7        137                                                           
+         8        115                                                           
+         9        135                                                           
+        10        168                                                           
+        11        187                                                           
+
+    INV_ID    INV_QOH                                                           
+---------- ----------                                                           
+        12          0                                                           
+        13        124                                                           
+        14        112                                                           
+        15        121                                                           
+        16        111                                                           
+        17        113                                                           
+        18        121                                                           
+        19        148                                                           
+        20        137                                                           
+        21        134                                                           
+        22        123                                                           
+
+    INV_ID    INV_QOH                                                           
+---------- ----------                                                           
+        23        114                                                           
+        24         17                                                           
+        25          0                                                           
+        26         12                                                           
+        27         50                                                           
+        28        100                                                           
+        29        100                                                           
+        30        100                                                           
+        31        100                                                           
+        32         10                                                           
+
+32 rows selected.
+
+Quantity 90 is bigger than the quantity on hand 10 for the product 32.          
+Quantity not supported.                                                         
+
+PL/SQL procedure successfully completed.
+
+
+    INV_ID    INV_QOH                                                           
+---------- ----------                                                           
+         1         16                                                           
+         2         12                                                           
+         3        150                                                           
+         4        147                                                           
+         5          0                                                           
+         6        139                                                           
+         7        137                                                           
+         8        115                                                           
+         9        135                                                           
+        10        168                                                           
+        11        187                                                           
+
+    INV_ID    INV_QOH                                                           
+---------- ----------                                                           
+        12          0                                                           
+        13        124                                                           
+        14        112                                                           
+        15        121                                                           
+        16        111                                                           
+        17        113                                                           
+        18        121                                                           
+        19        148                                                           
+        20        137                                                           
+        21        134                                                           
+        22        123                                                           
+
+    INV_ID    INV_QOH                                                           
+---------- ----------                                                           
+        23        114                                                           
+        24         17                                                           
+        25          0                                                           
+        26         12                                                           
+        27         50                                                           
+        28        100                                                           
+        29        100                                                           
+        30        100                                                           
+        31        100                                                           
+        32         10                                                           
+
+32 rows selected.
+
+
+PL/SQL procedure successfully completed.
+
+Quantity 90 is bigger than the quantity on hand 0 for the product 25.           
+Quantity not supported.                                                         
+
+PL/SQL procedure successfully completed.
+
+
+    INV_ID    INV_QOH                                                           
+---------- ----------                                                           
+         1         16                                                           
+         2         12                                                           
+         3        150                                                           
+         4        147                                                           
+         5          0                                                           
+         6        139                                                           
+         7        137                                                           
+         8        115                                                           
+         9        135                                                           
+        10        168                                                           
+        11        187                                                           
+
+    INV_ID    INV_QOH                                                           
+---------- ----------                                                           
+        12          0                                                           
+        13        124                                                           
+        14        112                                                           
+        15        121                                                           
+        16        111                                                           
+        17        113                                                           
+        18        121                                                           
+        19        148                                                           
+        20        137                                                           
+        21        134                                                           
+        22        123                                                           
+
+    INV_ID    INV_QOH                                                           
+---------- ----------                                                           
+        23        114                                                           
+        24         17                                                           
+        25          0                                                           
+        26         12                                                           
+        27         50                                                           
+        28        100                                                           
+        29        100                                                           
+        30        100                                                           
+        31        100                                                           
+        32         10                                                           
+
+32 rows selected.
+
+Connected.
+
+User dropped.
+
+Connected.
+DROP USER des04 CASCADE
+          *
+ERROR at line 1:
+ORA-01918: user 'DES04' does not exist 
+
+
+
+User created.
+
+
+Grant succeeded.
+
+Connected.
+DROP TABLE evaluation CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE project_consultant CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE project_skill CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE project CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE client CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE consultant_skill CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE skill CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+DROP TABLE consultant CASCADE CONSTRAINTS
+           *
+ERROR at line 1:
+ORA-00942: table or view does not exist 
+
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+Table altered.
+
+
+Table created.
+
+
+Table created.
+
+
+Table created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+1 row created.
+
+
+Commit complete.
+
+
+Package created.
+
+
+Package body created.
+
+----------------------------------------------------------                      
+Consultant last name: Myers.                                                    
+Consultant first name: Mark.                                                    
+Consultant skill description: VB .NET Programming.                              
+Consultant certification: Y.                                                    
+Consultant 100 do not need update.                                              
+
+PL/SQL procedure successfully completed.
+
+Consultant 200 do not exist.                                                    
+
+PL/SQL procedure successfully completed.
+
+Skill ID 10 do not exist.                                                       
+Try again using a number between 1 to 9.                                        
+---------------------------------                                               
+
+PL/SQL procedure successfully completed.
+
+Certification Z is invalid.                                                     
+Use Y or N uppercase as input for certification.                                
+----------------------------------                                              
+
+PL/SQL procedure successfully completed.
+
+----------------------------------------------------------                      
+Consultant last name: Myers.                                                    
+Consultant first name: Mark.                                                    
+Consultant skill description: VB .NET Programming.                              
+Consultant certification: N.                                                    
+CERTIFICATION UPDATED!!!                                                        
+
+PL/SQL procedure successfully completed.
+
+----------------------------------------------------------                      
+Consultant last name: Myers.                                                    
+Consultant first name: Mark.                                                    
+Consultant skill description: VB .NET Programming.                              
+Consultant certification: N.                                                    
+Consultant 100 do not need update.                                              
+
+PL/SQL procedure successfully completed.
+
